@@ -1,0 +1,20 @@
+<package>
+<description brief="libmv: libmv library">
+This package contains the libmv library code.
+This package is just to provide compilation options and proper include path to the ROS package.
+</description>
+<author>libmv team. ROS package maintained by Hyon Lim.</author>
+<license>BSD</license>
+<review status="3rdparty" notes=""/>
+<url>https://github.com/limhyon/libmv-ros</url>
+<export>
+  <cpp cflags="`pkg-config libmv --cflags`" lflags="`pkg-config libmv --libs`"/>
+</export>
+<versioncontrol type="git" url="https://github.com/limhyon/libmv-ros"/>
+
+<platform os="ubuntu" version="9.04"/>
+<platform os="ubuntu" version="9.10"/>
+<platform os="ubuntu" version="10.04"/>
+<platform os="ubuntu" version="oneiric"/>
+
+</package>
