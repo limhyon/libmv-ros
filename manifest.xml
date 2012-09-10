@@ -8,7 +8,8 @@ This package is just to provide compilation options and proper include path to t
 <review status="3rdparty" notes=""/>
 <url>https://github.com/limhyon/libmv-ros</url>
 <export>
-  <cpp cflags="`pkg-config libmv --cflags`" lflags="`pkg-config libmv --libs`"/>
+  <!--<cpp cflags="`pkg-config libmv --cflags`" lflags="`pkg-config libmv --libs`"/>-->
+  <cpp cflags="`pkg-config libmvd --cflags`" lflags="`pkg-config libmvd --libs`"/>
 </export>
 <versioncontrol type="git" url="https://github.com/limhyon/libmv-ros"/>
 
