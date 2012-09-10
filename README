@@ -1,0 +1,8 @@
+1. Important information
+
+There are two ways to build libmv: debug, release.
+In case you are developing some application or wants to debug with libmv, you should build this library with debug mode. The debug mode is default status.
+
+However, in case you need faster performance, you should build the library with release settings. 
+
+Depending on what you were building, pkg-config setting is different. Please read manifest.xml carefully. There is libmvd.pc or libmv.pc. Each are pkg-config settings for debug, release, respectively.

@@ -1,2 +1,3 @@
 build/*
 bin-dbg/*
+bin-opt/*
