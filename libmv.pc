@@ -1,0 +1,15 @@
+# Package Information for pkg-config
+# Author= Engin Tola
+# Created= Wed Sep  5 15:17:55 KST 2012
+# Licence= see license.txt
+
+prefix=/usr/local
+exec_prefix=${prefix}
+libdir=${exec_prefix}/lib
+includedir=${prefix}/include/libmv
+
+Name: libmv
+Description: libmv library
+Version: r386-1102
+Libs: -L${libdir} -lcamera -lcolamd -lcorrespondence -ldaisy -ldescriptor -ldetector -lfast -lflann -lgflags -lgtest -limage -lldl -lmultiview -lnumeric -lOpenExif -lpng -lreconstruction -ltools -lV3D -lzlib -lmultiview_test_data -llibmv_test_main -lglog
+Cflags: -I${includedir}
